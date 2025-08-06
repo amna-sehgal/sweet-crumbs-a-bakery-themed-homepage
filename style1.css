@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 120px;
+    width: 200px;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 60px;
+    width: 1030px;
+}
+.lower{
+    height: 60px;
+    width: 1030px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    border-top: 5px solid #d68c45;
+}
+.imgg{
+    height: 120px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.gift{
+    border: none;
+    background-color: #f2546c;
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 40px;
+    width: 140px;
+    border-radius: 15px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    border-radius: 999px;
+    border: 1.5px solid #c42348;
+    font-size: 14px;
+    width: 280px;
+    overflow: hidden;
+}
+.search:hover{
+    border: 2px solid #c42348;
+    box-shadow: 0 0 0 1px #c42348;
+}
+.search input{
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    flex: 1;
+    width: 200px;
+}
+.icon{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: #c42348;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+}
+.icon i{
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+}
+.location{
+    display: flex;
+    align-items: center;
+    border-radius: 999px;
+    border: 1.5px solid #c42348;
+    font-size: 14px;
+    width: 200px;
+    overflow: hidden;
+}
+.location:hover{
+    border: 2px solid #c42348;
+    box-shadow: 0 0 0 1px #c42348;
+}
+.location input{
+    border: none;
+    outline: none;
+    padding: 6px 10px;
+    font-size: 14px;
+    flex: 1;
+    width: 150px;
+}
+.i{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 6px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.i i{
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+}
+.delivery .label{
+    font-size: 12px;
+    opacity: 0.8;
+    margin-right: 4px;
+}
+.delivery i{
+    font-size: 10px;
+    margin-left: 5px;
+    color: #d68c45;
+}
+.store .label{
+    font-size: 12px;
+    opacity: 0.8;
+    margin-right: 4px;
+}
+.store i{
+    font-size: 10px;
+    margin-left: 5px;
+    color: #d68c45;
+}
+.cart{
+    font-size: 20px;
+    color: black;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.menu{
+    font-size: 20px;
+    color: black;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.lower{
+    padding: 10px 0;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.item{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.heart{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+.user{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+.ticker{
+    background-color: #c42348;
+    margin-top: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 10px;
+    line-height: 30px;
+}
+.content{
+    white-space: nowrap;
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll-left 20s linear infinite;
+}
+@keyframes scroll-left{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.bigi{
+    margin-top: 3px;
+    background-image: url(gaby-dyson-QX814A1w3j4-unsplash.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+}
+.head{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: white;
+}
+.favourites{
+    background-color: #fbf3ed;
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+}
+.heading h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  color: #c42348;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.img1{
+    height: 200px;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.card1{
+    height: 350px;
+    width: 250px;
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 10px double #f2546c;
+}
+.details{
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 21px;
+}
+.icon1{
+    margin-left: 200px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.favourites{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+}
+.heading{
+    display: flex;
+}
+.heading h3{
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+    margin-left: 650px;
+}
+.heading i{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.order{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    margin-top: 10px;
+}
+.tabs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;  
+}
+.n1{
+    text-decoration: 5px underline #d68c45;
+}
+.tabs h4{
+    cursor: pointer;
+}
+.heading2{
+    display: flex;
+}
+.heading2 h3{
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+.heading2 i{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.heading2 h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  color: #c42348;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.details1{
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 23px;
+}
+.banner{
+    margin-top: 80px;
+    height: 300px;
+    width: 100%;
+}
+.im2{
+    height: 300px;
+    width: 100%;
+}
+.info{
+    height: 400px;
+    width: 100%;
+    margin-top: 40px;
+}
+.up{
+    height: 100px;
+    width: 100%;
+    background-color: #c42348;
+}
+.h1{
+    padding-top: 30px;
+    margin-left: 20px;
+}
+.h1 h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.up{
+    display: flex;
+}
+.email{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    overflow: hidden;
+    width: 280px;
+    margin-left: 300px;
+}
+.email input{
+    border: none;
+    outline: none;
+    padding: 4px 8px;
+    flex: 1;
+    width: 200px;
+    font-size: 14px;
+}
+.i4{
+    padding: 4px 8px;
+    background-color: #d68c45;
+    justify-content: center;
+    align-items: center;
+}
+.i4 i{
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+}
+.image{
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.down{
+    display: flex;
+}
+.first{
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.second{
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 130px; 
+}
+.third{
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+.fourth{
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+@media( ){
+
+}
