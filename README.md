@@ -30,7 +30,7 @@ A beautiful and aesthetic **Restaurant Menu Page** called **Sweet Crumbs**, desi
 ## 📂 Project Folder Structure
 sweet-crumbs/
 │
-├── sweet crumbs.html
+├── index.html
 ├── style1.css
 └── images/
 
